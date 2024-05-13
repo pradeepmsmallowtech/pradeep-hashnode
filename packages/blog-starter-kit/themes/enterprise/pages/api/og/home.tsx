@@ -16,7 +16,7 @@ const fontMedium = fetch(
 ).then((res) => res.arrayBuffer());
 
 const fontSemiBold = fetch(
-	new URL('../../../assets/PlusJakartaSans-SemiBold.ttf', import.meta.url),
+	new URL('../../../assets/CalSans-SemiBold.ttf', import.meta.url),
 ).then((res) => res.arrayBuffer());
 
 const fontBold = fetch(new URL('../../../assets/PlusJakartaSans-Bold.ttf', import.meta.url)).then(
